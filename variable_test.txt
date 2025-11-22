@@ -1,0 +1,133 @@
+var age: Int =40;
+var firstName: String= "Kyaw";
+var address: String= "Yangon";
+var isChecked: Boolean = True;
+var score: Float = 3.5;
+
+toByte()
+toDouble()
+toInt()
+toShort()
+toChar()
+toFloat()
+toLong()
+
+var age: Short =40;
+var ageShort: Int = age.toInt();
+var ageDouble: Double = age.toDouble()
+
+var ageString: String ='40'
+if ageString.toInt() > 45:
+if 40>45
+
+
+var valueA = 65;
+var charA: Char = valueA.toChar()
+
+var firstValue: Int = 5
+var secondValue: Int = 10
+var sumTwoNumber: Int = firstValue + secondValue
+
+
+firstValue + secondValue
+firstValue - secondValue
+firstValue * secondValue
+firstValue % secondValue
+
+firstValue++
+firstValue--
+++firstValue
+--firstValue
+
+//Boolean
+
+firstValue == secondValue
+firstValue != secondValue
+firstValue < secondValue
+firstValue > secondValue
+firstValue <= secondValue
+firstValue >= secondValue
+
+///String
+
+
+var firstName : String = "Mr. Smith"
+                          012345678
+firstName[4]
+firstName.Length
+var searchKeyword = firstName.indexOf("Smith)
+answer: index tan phoe 4 pyan lr ml
+
+//FullName
+
+var firstName : String = "Mr."
+var lastName : String = "Smith"
+var fullName: String = firstName + " "+ lastName
+
+var role : String = "admin"
+roleValue //from User Input(example ADMIN/ admin/ Admin)
+
+role == roleValue.lowercase() admin
+
+role == roleValue.uppercase() ADMIN
+
+//Compare
+
+role.compareTo(roleValue) 
+//nyi yin 0 pya
+//kyi yin 1 pya
+//nge yin - pya
+
+*//FUNCTIONS*
+
+in sunTwoNum(int num1, int num 2)
+fun sumTwoNum(num1: Int, num2: Int): Int{
+
+}
+
+//fun is function's keyword.
+
+///function call 
+
+fun sumTwoNum(num1: Int, num2: Int): Int{
+    return num1 + num2
+}
+num1 = 5
+num2 = 10
+//Function definition
+fun isEqualTwoNum(num1: Int, num2: Int):Boolean{
+    return num1==num2
+}
+var numOne: Int= 5// variable inialization
+var numTwo: Int = 10 // variable inialization
+var sunNum: Int = sumTwoNum(numOne,numTwo) //function call
+var isEqual: Boolean = isEqualTwoNum(numOne,numTwo)  //function call
+
+
+// ==  check value only
+// === check value and data type 
+
+
+
+s//areaRectangle
+
+fun areaRactagle(wValue: Int, hValue: Int):Int{
+    return wValue*hValue
+}
+
+var width: Int = 20
+var height: Int = 30
+var areeOfRactagle: Int = areaRactagle(width*height)
+
+
+
+//areaCircle
+
+fun areaCircle(rValue: Float): Float{
+    val pi: float = 3.14
+    return pi*rValue*rValue
+}
+var radius: Float = 5.6
+var areaOfCircle: Float = areaCircle(radius)
+
+
